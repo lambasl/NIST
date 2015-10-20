@@ -1,0 +1,16 @@
+Flow is 0 and occupancy is 100 -  Car sitting on the lane
+
+openStreetMap - primary use is for highways
+Weather data - 
+
+Cleaning task
+
+Use nearby traffic zones to 
+Use linear regression model to correct the flow values
+
+Differentiate betweek outliers from events and errors
+consider timeseries data to detect errors in sensors
+
+Prediction task
+
+find major highways in the bounding box
