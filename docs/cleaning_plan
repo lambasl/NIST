@@ -1,0 +1,9 @@
+1. Zero flow => zero speed
+2. min speed = 0 , max speed  = 100
+3. events
+4. lane id = avg speed avg(i-1), avg(i), avg(i+1)
+5. zone id average speed and flow ordered by timestamp
+
+
+for zero or absurd values
+Check for events around that timestamp. first check for zone avg speed and avg flow on that timestamp on the nearby zones with same direction on same road, then check for lane flow and average in these zones 

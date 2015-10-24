@@ -1,0 +1,4 @@
+MDOT_CHART has detectors of 300
+Somelanes with same detector type had some missing values. Filled it with same values on same road
+Acoustic detectors have default interval as 60
+Microwave from HERE has default interval as 60
