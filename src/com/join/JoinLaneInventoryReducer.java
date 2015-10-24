@@ -59,12 +59,12 @@ public class JoinLaneInventoryReducer extends Reducer<Text, Text, Text, Text> {
 			Date keyDate = keyIter.next();
 			StringBuilder valueText = dataMap.get(keyDate);
 
-			cal.setTime(new Date()); // sets calendar time/date
+			cal.setTime(keyDate); // sets calendar time/date
 			cal.add(Calendar.MINUTE, -1 * Utils.LOOKBACK_MINUTES); // subtract
 																	// LOOKBACK_MINS
 			Date startDate = cal.getTime();
 
-			cal.setTime(new Date()); // sets calendar time/date
+			cal.setTime(keyDate); // sets calendar time/date
 			cal.add(Calendar.MINUTE, Utils.LOOKBACK_MINUTES); // adds
 																// LOOKBACK_MINS
 			Date endDate = cal.getTime();
